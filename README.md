@@ -1,0 +1,1 @@
+# Django_Smart_agriculture
