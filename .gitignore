@@ -1,0 +1,33 @@
+# Python & Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+venv/
+.venv/
+env/
+*.log
+
+# Environment Variables
+.env
+.env.local
+
+# Machine Learning Large Files
+ml/saved_models/*.h5
+ml/saved_models/*.pkl
+# Keep .gitkeep in directories
+!.gitkeep
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
